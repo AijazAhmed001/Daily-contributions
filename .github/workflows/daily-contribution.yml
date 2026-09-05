@@ -18,7 +18,7 @@ jobs:
 
       - name: Update activity
         run: |
-          echo "- 2026-09-05 - Daily development activity" >> activity.md
+          echo "- $(date '+%Y-%m-%d') - Daily development activity" >> activity.md
 
       - name: Commit changes
         run: |
